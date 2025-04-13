@@ -1,0 +1,556 @@
+@media(max-width: 1200px){
+    .header__signin{
+        display: block;
+    }
+
+    .desktop_login_list{
+        display: none;
+    }
+
+    .desktop_menu{
+        width: calc(100% - 200px);
+        justify-content: space-evenly;
+    }
+
+    .banner_table_inner{
+        gap: 30px;
+    }
+
+    .banner__table--flex {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .banner_time, .banner_date, .banner_checkbtn {
+        max-width: 285px;
+    }
+
+    .banner_checkbtn{
+        width: 100%;
+    }
+
+    .banner_mail{
+        max-width: 365px;
+    }
+
+    .banner_mail{
+        margin-right: 0;
+    }
+
+    .home_ourstory_right{
+        max-width: 450px;
+    }
+
+    .home_chef_inner .home_ourstory_left {
+        max-width: 400px;
+        padding: 30px 0 0 0;
+    }
+
+    .home_chef_inner .home_ourstory_right {
+        max-width: 400px;
+    }
+
+    .home_chef_inner .cheef_top_img {
+        width: 184px;
+        height: 136px;
+    }
+
+    .testimonial_inner--main .testimonial_left{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin: 0 0px 40px 0;
+        padding: 25px 30px;
+    }
+
+    .testimonial_image {
+        width: 125px;
+        height: 125px;
+        margin: 0 auto 20px;
+    }
+
+    .testimonial_image_cnt {
+        width: 100%;
+    }
+
+    .testimonial_inner--main {
+        gap: 50px;
+    }
+
+    .testimonial__center .testimonial_left{
+        margin: 0;
+    }
+
+    .footer_inner {
+        max-width: 500px;
+    }
+
+    .footer_left, .footer_middle {
+        max-width: 250px;
+    }
+
+}
+
+@media(max-width: 991px){
+    .desktop_menu_list {
+        width: 420px;
+    }
+
+    .desktop_menu ul li {
+        margin-right: 15px;
+    }
+
+    .banner_date input, .banner_time input, .banner_mail input {
+        height: 65px;
+        padding: 15px 25px 15px 25px;
+    }
+
+    .banner_checkbtn a{
+        width: 100%;
+        height: 65px;
+    }
+
+    .banner_checkbtn {
+        width: 250px;
+        max-width: 100%;
+    }
+
+    .home-product-inner{
+        justify-content: space-between;
+    }
+
+    .home-product-left{
+        flex: 1 1 48.5%;
+        max-width: 48.5%;
+        margin: 0 0 20px;
+    }
+
+    .food_category {
+        padding: 80px 0 70px;
+    }
+
+    .about_care .heading{
+        padding-top: 0;
+    }
+
+    .about_care {
+        background-position: center -125px;
+    }
+
+    .home_ourstory {
+        padding: 0px 0 60px;
+    }
+
+    .home_ourstory_left, .home_ourstory_bottom .home_ourstory_right {
+        max-width: 300px;
+        padding: 40px 0 0 0px;
+        margin: 0 auto;
+    }
+
+    .home_ourstory_right, .home_ourstory_bottom  .home_ourstory_left{
+        max-width: 351px;
+    }
+
+    .home_ourstory_top{
+        padding-bottom: 60px;
+    }
+
+    .home_ourstory_bottom .home_ourstory_left {
+        padding: 0px 0 0 75px;
+    }
+
+    /* .home_chef_inner .home_ourstory_right {
+        max-width: 350px;
+    } */
+
+    .home_chef_inner .home_ourstory_left {
+        max-width: 100%;
+        padding: 0px 0 0 0;
+    }
+
+    .home_chef_inner {
+        flex-flow: column-reverse;
+        /* margin-bottom: 60px; */
+    }
+
+    .home_chef_inner .home_ourstory_right {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+
+    .home_chef_inner .cheef_top_img {
+        width: 134px;
+        height: 86px;
+    }
+
+    .testimonial {
+        padding: 50px 0 30px;
+    }
+
+    .testimonial_inner {
+        margin-top: 40px;
+    }
+
+    .newsletter_in_ul {
+        margin: 35px auto 0;
+    }
+
+    .news_icon_one {
+        left: 10px;
+    }
+
+    .news_icon_two {
+        right: 0px;
+    }
+
+    .news_icon_three {
+        left: 50px;
+    }
+
+    .news_icon_four {
+        right: 20px;
+    }
+
+    .footer_inner {
+        max-width: 400px;
+    }
+
+    .footer_left, .footer_middle {
+        max-width: 200px;
+    }
+
+    .footer_right {
+        max-width: 319px;
+    }
+
+    .footer_right_ul {
+        max-width: 250px;
+    }
+
+    .footer_right_ul img{
+        width: 40px;
+    }
+
+    .footer_right_ul {
+        margin: 50px 0 0 auto;
+    }
+    
+}
+
+@media(max-width:780px){
+    .desktop_menu{
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .header_main_inner {
+        padding: 10px 45px 10px 20px;
+    }
+
+    .small_sticky .logo {
+        width: 130px;
+    }
+
+    .small_sticky .header_main_inner{
+        padding: 10px 0;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .banner_inner h1 {
+        font-size: 48px;
+    }
+
+    .banner_inner_button {
+        margin: 25px 0 20px;
+    }
+
+    /* .banner .container{
+        margin: 0;
+    } */
+
+    .banner_inner {
+        transform: translateY(-35%);
+    }
+
+    .banner:after{
+        right: 5%;
+    }
+
+    .banner:after{
+        display: block;
+        background: url(../images/light_small.png) no-repeat;
+    }
+
+    .banner_date input, .banner_time input, .banner_mail input {
+        height: 50px;
+        padding: 15px 20px 15px 20px;
+        font-size: 15px;
+    }
+
+    .banner_checkbtn {
+        max-width: 180px;
+    }
+
+    .banner_checkbtn a {
+        height: 45px;
+        padding: 15px;
+    }
+
+    .banner_table_inner {
+        padding: 25px;
+    }
+
+    .banner_table_inner {
+        gap: 15px;
+    }
+
+    .banner__table--flex {
+        gap: 20px;
+    }
+
+    .home-product-left {
+        padding: 30px 20px;
+    }
+
+    .food_category {
+        padding: 60px 0 60px;
+    }
+
+    .home-product-inner {
+        margin: 30px 0 0;
+    }
+
+    .home_ourstory_left, .home_ourstory_bottom .home_ourstory_left {
+        max-width: 100%;
+        padding: 50px 0;
+    }
+
+    .home_ourstory_right, .home_ourstory_bottom .home_ourstory_right {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .about_care {
+        background-position: center 40px;
+    }
+
+    .about_care {
+        height: 450px;
+    }
+
+    .home_ourstory .home_ourstory_bottom {
+        flex-flow: column-reverse;
+    }
+
+    .home_ourstory .home_ourstory_top{
+        padding-bottom: 0;
+    }
+
+    .home_ourstory_bottom .home_ourstory_right{
+        padding-top: 0;
+    }
+
+    .home_ourstory {
+        padding: 0px 0 40px;
+    }
+
+    .testimonial_inner--main, .testimonial__center {
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .testimonial_inner--main .testimonial_left, .testimonial__center .testimonial_left{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .testimonial__center .testimonial_left{
+        margin-top: 30px;
+    }
+
+    .newsletter_in_ul input, .newsletter .home-product-button button {
+        height: 60px;
+    }
+
+    .newsletter_in_ul {
+        max-width: 450px;
+        position: relative;
+        z-index: 2;
+    }
+
+    footer .container{
+        flex-flow: column-reverse;
+    }
+
+    .footer_right {
+        max-width: 382px;
+    }
+
+    .footer_right h4 {
+        text-align: left;
+    }
+
+    .footer_right_ul {
+        margin: 25px auto 30px 0;
+    }
+
+    .footer_right h4 br{
+        display: none;
+    }
+
+    footer {
+        padding: 45px 0 25px;
+    }
+
+    .footer_left h4, .footer_middle h4, .footer_right h4{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .footer_left_ul li, .footer_middle_ul li {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width: 580px){
+    .banner_time, .banner_date, .banner_checkbtn, .banner_mail {
+        max-width: 100%;
+    }
+
+    .banner__table--flex {
+        gap: 20px;
+        flex-flow: column;
+    }
+
+    .banner_table_inner {
+        gap: 25px;
+    }
+
+    .banner_checkbtn {
+        width: 180px;
+    }
+
+    .home-product-inner{
+        justify-content: center;
+    }
+
+    .home-product-left{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+}
+
+@media(max-width:480px){
+    .banner_inner{
+        padding: 15px 20px;
+    }
+
+    .banner_inner h1 {
+        font-size: 32px;
+    }
+
+    .container{
+        padding: 0 20px;
+    }
+
+    .header-main {
+        padding-top: 25px;
+    }
+
+    .small_sticky .logo {
+        width: 95px;
+    }
+
+    .banner_inner_button {
+        margin: 15px 0 20px;
+    }
+
+    .food_category {
+        padding: 40px 0 40px;
+    }
+
+    .about_care .heading h3{
+        font-size: 32px;
+    }
+
+    .about_care .heading h5 {
+        font-size: 18px;
+    }
+
+    .home_chef_inner {
+        padding: 40px 30px;
+    }
+
+    .home_chef_inner .home_ourstory_left h3 {
+        font-size: 28px;
+    }
+
+    .home_chef_inner .home_ourstory_left h5 {
+        font-size: 18px;
+    }
+
+    .testimonial_image img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .testimonial_image {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 20px;
+    }
+
+    .testimonial_inner--main {
+        gap: 25px;
+    }
+
+    .newsletter_in_ul input, .newsletter .home-product-button button {
+        height: 55px;
+    }
+
+    .heading h3 {
+        font-size: 28px;
+    }
+
+    .newsletter {
+        padding-bottom: 30px;
+    }
+
+    .footer_left, .footer_middle {
+        max-width: 160px;
+    }
+
+    
+}
+
+@media(max-width: 380px){
+    .banner_inner h1 {
+        font-size: 26px;
+    }
+
+    .banner_inner h6{
+        font-size: 16px;
+    }
+
+    .banner_inner p {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 95px;
+    }
+
+    .banner_inner {
+        top: 20%;
+        transform: translateY(-15%);
+    }
+}
